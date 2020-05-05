@@ -16,10 +16,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "packages\\Jenssegers\\Agent\\AgentServiceProvider"
+                "Jenssegers\\Agent\\AgentServiceProvider",
+                "Toolek\\ViewPage\\ToolekServiceProvider"
             ],
             "aliases": {
-                "Agent": "packages\\Jenssegers\\Agent\\Facades\\Agent"
+                "Agent": "Jenssegers\\Agent\\Facades\\Agent"
             }
         }
     },
