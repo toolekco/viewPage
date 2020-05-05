@@ -1,0 +1,31 @@
+{
+    "name": "toolek/view-page",
+    "description": "You can set view any table you want with this package",
+    "require": {
+        "illuminate/support": "^7.9",
+        "jenssegers/agent": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehrab Esmailnia",
+            "email": "mehrabesmailnia96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "packages\\Jenssegers\\Agent\\AgentServiceProvider"
+            ],
+            "aliases": {
+                "Agent": "packages\\Jenssegers\\Agent\\Facades\\Agent"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Toolek\\ViewPage\\" : "src/"
+        }
+    }
+}
